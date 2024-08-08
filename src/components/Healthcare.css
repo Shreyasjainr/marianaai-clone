@@ -1,0 +1,84 @@
+.feature-content.profile {
+    padding: 0 20px 20px;
+}
+.feature-thumbnail {
+    border-radius: 2px;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: Opensauceone, sans-serif;
+}
+.profiles {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 0;
+}
+.section-header.ds {
+    grid-template-columns: 1.75fr 1fr;
+}
+.section-content.pro {
+    background-color: #f6f8fc;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+@media screen and (max-width: 479px) {
+    .section-content.features, .section-content.pro, .section-content.experts, .section-content.stt {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+    .section-header.ds {
+        grid-template-columns: 2.5fr 1fr;
+    }
+    .profiles {
+        flex-direction: column;
+        display: flex;
+    }
+    .margin-bottom-medium {
+        margin-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .heading {
+        font-size: 36px;
+        line-height: 40px;
+    }
+        .section-content.stt {
+            padding-top: 5px;
+            padding-bottom: 4px;
+        }
+}
+
+@media screen and (max-width: 767px) {
+    .margin-bottom-medium {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .profiles {
+        grid-template-columns: 1fr 1fr;
+      }
+    .section-content.features, .section-content.integrations, .section-content.pro {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .section-header.ds {
+        display: flex;
+    }
+    .heading, .heading.mb20 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .heading {
+        text-align: left;
+        line-height: 55px;
+    }
+    .surtitle.marianablue.as.wew, .surtitle.marianablue.sad.rseadvscaxz, .surtitle.marianablue.asa {
+      text-align: left;
+    }
+    .section-content.features, .section-content.integrations, .section-content.pro {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}

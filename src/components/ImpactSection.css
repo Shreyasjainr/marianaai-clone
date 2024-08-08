@@ -1,0 +1,53 @@
+
+.text-block-7 {
+    letter-spacing: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.div-block-82 {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.title-wrapper-large.das {
+    z-index: 10;
+    margin-bottom: 0;
+    padding-top: 60px;
+    padding-bottom: 0;
+}
+.image-14 {
+    max-width: 90%;
+    font-family: Opensauceone, sans-serif;
+}
+.div-block-94 {
+    justify-content: center;
+    display: flex;
+}
+.heading {
+    letter-spacing: 0;
+    font-family: "Denton Test 400", Georgia, sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 54px;
+}
+.surtitle.marianablue.center {
+    text-align: center;
+}
+.padding-vertical-xlarge {
+    border: 1px none #e2e8f0;
+    background-color:#fcfcfd;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 60px;
+    display: flex;
+}
+@media screen and (max-width: 767px) {
+    .button-light-secondary{
+        width: auto;
+    }
+}
